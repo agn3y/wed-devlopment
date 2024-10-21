@@ -70,3 +70,14 @@ body {
     box-shadow: 0 0 4px white;
     cursor: pointer;
 }
+
+/* media query for width <= 1024 px*/
+@media screen and (max-width :1024px) {
+   .main-container {
+    flex-direction: column;
+    padding: 10px;
+   }     
+   .gallery {
+    width: 100%;
+   }
+}
